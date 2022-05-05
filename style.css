@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #be9355;
+}
+
+html, body {
+  /* padding: 0; */
+  margin: 0;
+}
+
+body {
+  background-image: url("img/watermark.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  text-align: center;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  background-image: url("img/pattern.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 1px solid red; */
+}
+
+header img {
+  width: 25%;
+  margin-bottom: 5px;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.nav-link {
+  padding: 7px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid var(--main-color);
+  border-radius: 25px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: var(--main-color);
+}
