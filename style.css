@@ -35,8 +35,17 @@ header {
 }
 
 header img {
-  width: 25%;
+  width: 15%;
   margin-bottom: 5px;
+  /* border: 1px solid red; */
+  /* transform: scale(.5); */
+  transition: width 800ms;
+}
+
+header img:hover {
+  /* transform: scale(1); */
+  width: 25%;
+  transition: width 800ms;
 }
 
 nav {
@@ -59,7 +68,9 @@ nav {
   background-color: var(--main-color);
 }
 
-.test--div-test{
+
+
+/* .test--div-tester{
   border: 2px solid red; 
   border-top-left-radius: 25px; 
   box-shadow: 0 20px 30px -10px;
@@ -72,3 +83,36 @@ a[href^="ind"] {
 img[src$=".png"] {
   border: 2px solid orange;
 }
+
+a[href*="gui"] {
+  color: red;
+}
+
+nav:nth-child(2) {
+  color: pink;
+}
+
+p::first-letter {
+  color: blue;
+}
+
+input[type="text"]:enabled {
+  background: #fcfbcc;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+ */
