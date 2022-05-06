@@ -58,3 +58,17 @@ nav {
   color: white;
   background-color: var(--main-color);
 }
+
+.test--div-test{
+  border: 2px solid red; 
+  border-top-left-radius: 25px; 
+  box-shadow: 0 20px 30px -10px;
+}
+
+a[href^="ind"] {
+  color: teal
+};
+
+img[src$=".png"] {
+  border: 2px solid orange;
+}
